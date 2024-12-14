@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Pra ti meu amor <3</title>
+</head>
+<body>
+<h1 style="text-align:center;">Você me ama?</h1>
+<div style="display:flex; width:100%; height:500px; justify-content:space-around; align-items:center;">
+<div id="nao" style="position:relative;" onmouseenter="swap()" onclick="swap()">
+	<button style="background-color:red; color: white; padding:10px 20px; height:50px; margin:50px;">Não</button>
+</div>
+	<button style="background-color:green; color: white; padding:10px 20px;height:50px;" onclick="alert('TAMBÉM TE AMO MUITO RHAINA, VOCÊ É MINHA PRINCESA')">Sim</button>
+</div>
+<script>
+function swap(){
+	document.getElementById("nao").style.top = Math.floor(Math.random() * 400)
+	document.getElementById("nao").style.bottom = Math.floor(Math.random() * 400)
+	document.getElementById("nao").style.left = Math.floor(Math.random() * 400)
+	document.getElementById("nao").style.right = Math.floor(Math.random() * 400)
+}</script>
+</body>
+</html>
